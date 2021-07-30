@@ -4,7 +4,6 @@ import { Button, Text } from 'native-base';
 import SearchScreen from './SearchScreen';
 import { Entypo } from '@expo/vector-icons';
 import i18n from '../services/i18nService';
-import commonConstants from './commonConstants';
 
 export default class IndiviualScreen extends React.Component {
     static navigationOptions = {
