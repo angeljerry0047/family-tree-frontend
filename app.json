@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "My Family Tree",
+    "description": "My Family Tree",
+    "slug": "family-tree",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "0.2.0",
+    "orientation": "default",
+    "icon": "./assets/images/icon3.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hijazifamily.myfamtree"
+    },
+    "android": {
+      "package": "com.hijazifamily.myfamtree"
+    }
+  }
+}

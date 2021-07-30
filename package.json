@@ -1,0 +1,48 @@
+{
+  "name": "my-new-project",
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/samples": "2.1.1",
+    "@expo/vector-icons": "^10.0.0",
+    "@react-native-async-storage/async-storage": "^1.14.1",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/bottom-tabs": "^5.11.8",
+    "@react-navigation/native": "^5.9.2",
+    "@react-navigation/stack": "^5.14.3",
+    "axios": "^0.18.0",
+    "countries-list": "^2.4.2",
+    "expo": "^38.0.0",
+    "expo-font": "~8.2.1",
+    "expo-localization": "~8.2.1",
+    "i18n-iso-countries": "^3.7.8",
+    "i18n-js": "^3.2.1",
+    "lodash": "^4.17.21",
+    "native-base": "^2.12.1",
+    "react": "16.11.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
+    "react-native-confirmation-code-input": "^1.0.4",
+    "react-native-elements": "^1.0.0",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-masked-text": "^1.10.1",
+    "react-native-modal-datetime-picker": "^6.1.0",
+    "react-native-reanimated": "^1.9.0",
+    "react-native-safe-area-context": "^3.0.7",
+    "react-native-screens": "^2.9.0"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^8.2.3",
+    "expo-cli": "^4.3.2",
+    "jest-expo": "^38.0.0"
+  }
+}
